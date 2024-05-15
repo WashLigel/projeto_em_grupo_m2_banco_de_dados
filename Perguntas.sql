@@ -15,7 +15,16 @@ GROUP BY
     t.id;
     
 
--- Pergunta 4 | Criando o Trigger
+-- Pergunta 4 | Criando o Trigger e a tabela log
+CREATE TABLE log_status_aluno (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    aluno_id INT,
+    status_antigo VARCHAR(15),
+    status_novo VARCHAR(15),
+    data_hora TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (aluno_id) REFERENCES aluno(id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
 DELIMITER //
 
 CREATE TRIGGER status_update
