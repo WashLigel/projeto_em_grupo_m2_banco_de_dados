@@ -17,6 +17,8 @@ Após a criação do banco de dados, foi inserido alguns dados para teste do ban
 3. Crie uma view que selecione a porcentagem de estudantes com status de evasão agrupados por turma;
 4. Crie um trigger para ser disparado quando o atributo status de um estudante for atualizado e inserir um novo dado em uma tabela de log.
 5. Além disso, vocês deverão pensar em uma pergunta que deverá ser respondida por uma consulta SQL que combine pelo menos 3 tabelas.
+6. Existe diferença significativa no desempenho dos alunos em turmas presencias e online ?
+7. Quais são os cursos mais populares entre os alunos de 17 a 25 anos ?
 
 ### Squad
 
