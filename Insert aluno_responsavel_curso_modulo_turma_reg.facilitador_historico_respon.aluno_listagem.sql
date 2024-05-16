@@ -94,8 +94,8 @@ VALUES
     (1, 'Presencial', 'Ativa', 1, 1),
     (2, 'Online', 'Ativa', 2, 8),
     (3, 'Presencial', 'Ativa', 3, 3),
-    (4, 'Presencial', 'Ativa', 1, 4),
-    (5, 'Presencial', 'Pendente', 2, 5);
+    (4, 'Presencial', 'Ativa', 5, 4),
+    (5, 'Presencial', 'Pendente', 8, 5);
 
 INSERT INTO registro_facilitador(turma_id, facilitador_id , data_reg)
 VALUES 
