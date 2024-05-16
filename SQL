@@ -67,7 +67,7 @@ CREATE TABLE curso (
     id int PRIMARY KEY NOT NULL AUTO_INCREMENT,
     nome varchar(60),
     descricao varchar(99),
-    duracao varchar(10),
+    duracao int,
     area_id int,
     FOREIGN KEY (area_id) REFERENCES area(id) ON DELETE CASCADE ON UPDATE CASCADE
 );
