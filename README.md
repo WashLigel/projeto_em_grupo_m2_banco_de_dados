@@ -26,3 +26,6 @@ Após a criação do banco de dados, foi inserido alguns dados para teste do ban
 - Pessoa Gestora de Conhecimento: Thiago Jaime Barbosa
 - Pessoa Gestora de Gente e Engajamento: Washington Luis
 - Pessoa Colaboradora: Isadora Maiolino
+
+
+Link apresentação canvas - https://www.canva.com/design/DAGE9uXk0rg/_qDBULi45nFYu2xLV8FvQA/view?utm_content=DAGE9uXk0rg&utm_campaign=designshare&utm_medium=link&utm_source=editor
