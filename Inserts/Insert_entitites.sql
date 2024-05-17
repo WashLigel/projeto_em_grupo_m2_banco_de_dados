@@ -135,7 +135,7 @@ VALUES
     ('Unidade 7', '(21) 7890-1234', 7),
     ('Unidade 8', '(21) 8901-2345', 8);
 
-INSERT INTO turma (numeracao, modalidade, status_turma, curso_id, unidade_id)
+INSERT INTO turma (numeracao, modalidade, status_turma, curso_id)
 VALUES
     (1, 'Presencial', 'Ativa', 1, 1),
     (2, 'Online', 'Ativa', 2, 8),
